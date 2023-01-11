@@ -9,7 +9,7 @@ def add_money_to_vm(coin):
 
 money_input = []
 money_in_machine = 0
-x = str(input("q for quarter")).split()
+x = input("q for quarter").split()
 money_input.append(x)
 for y in money_input:
     money_in_machine += add_money_to_vm(y)
